@@ -1,0 +1,10 @@
+Enter items for list1 
+Enter items for list2 
+hello is lauren my name 
+boo halloween october scary spooky 
+hello is lauren my name boo halloween october scary spooky 
+Enter items for list1 
+Enter items for list2 
+1 2 3 4 5 
+2 4 6 8 9 
+1 2 3 4 5 2 4 6 8 9 

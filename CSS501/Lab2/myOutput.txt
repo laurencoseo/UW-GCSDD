@@ -1,0 +1,14 @@
+Before swap: x=5 y=7
+After swap: x=7 y=5
+Before swap: a=2 b=4
+After swap: a=4 b=2
+Before swap: p=abc q=xyz
+After swap: p=xyz q=abc
+Before swap v:
+55555
+Before swap w:
+7777777
+After swap v:
+7777777
+After swap w:
+55555
