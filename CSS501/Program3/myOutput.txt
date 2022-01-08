@@ -1,0 +1,50 @@
+-------- changeCoefficient test --------
+p1: 1x^3
+changing the cofficient to 3: 3x^3
+
+-------- operator= test --------
+p2 = p1: 3x^3
+
+-------- degree test --------
+p1: 3x^3
+p1 degree is: 3
+p2: -2x^4 + 3x^3 + 5x
+p2 degree is: 4
+p3: 
+p3 degree is: 0
+
+-------- coefficient test --------
+p1 coefficient of power 3 is: 3
+p2 coefficient of power 4 is: -2
+p2 coefficient of power 2 is: 0
+
+-------- operator+ test --------
+p1: -7x^7 + 8x^5 + 3x^3 - 10x^2 - 1
+p2: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+p3 = p1 + p2: 8x^5 - 2x^4 + 6x^3 - 10x^2 + 5x + 9
+
+-------- operator- test --------
+p1: -7x^7 + 8x^5 + 3x^3 - 10x^2 - 1
+p2: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+p3 = p1 - p2: -14x^7 + 8x^5 + 2x^4 - 10x^2 - 5x - 11
+
+-------- operator== test --------
+p4: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+p2: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+does p4 = p2? true
+
+-------- operator!= test --------
+p1: -7x^7 + 8x^5 + 3x^3 - 10x^2 - 1
+p2: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+does p1 != p2? true
+
+-------- operator+= test --------
+p1: -7x^7 + 8x^5 + 3x^3 - 10x^2 - 1
+p4: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+p1 += p4: 8x^5 - 2x^4 + 6x^3 - 10x^2 + 5x + 9
+
+-------- operator-= test --------
+p2: 7x^7 - 2x^4 + 3x^3 + 5x + 10
+p1: 8x^5 - 2x^4 + 6x^3 - 10x^2 + 5x + 9
+p2 -= p1: 7x^7 - 8x^5 - 3x^3 + 10x^2 + 1
+
