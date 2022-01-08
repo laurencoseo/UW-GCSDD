@@ -1,0 +1,80 @@
+-------- default constructor test --------
+setting up LongInt c using default constructor
+c: 0
+
+-------- constructor (str) test --------
+setting up LongInt d using constructor with str parameter
+d: 12
+
+-------- constructor (LongInt) test --------
+setting up LongInt e using constructor with LongInt parameter d
+d: 12
+e: 12
+
+-------- operator= test --------
+setting up LongInt g to equal d
+d: 12
+g: 12
+
+-------- operator+ test --------
+-1 + -123 = -124
+
+-1 + 3 = 2
+
+3 + 24 = 27
+
+24 + -1 = 23
+
+24 + 98 = 122
+
+-50 + 24 = -26
+
+24 + -50 = -26
+
+
+-------- operator- test --------
+-1 - -123 = 122
+
+-1 - 3 = -4
+
+3 - 24 = -21
+
+24 - -1 = 25
+
+24 - 98 = -74
+
+-50 - 24 = -74
+
+24 - -50 = 74
+
+
+-------- operator== test --------
+a: -123
+b: -123
+does a = b? true
+
+-------- operator!= test --------
+a: -123
+b: -123
+does a != b? false
+
+-------- operator< test --------
+-123 < -123 =  0
+-23 < 1 =  1
+100 < 1 =  0
+
+-------- operator<= test --------
+-123 <= -123 =  1
+-23 <= 1 =  1
+100 <= 1 =  0
+
+-------- operator> test --------
+-123 > -123 =  0
+-23 > 1 =  0
+100 > 1 =  1
+
+-------- operator>= test --------
+-123 >= -123 =  1
+-23 >= 1 =  0
+100 >= 1 =  1
+
